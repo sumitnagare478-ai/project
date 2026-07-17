@@ -1,0 +1,42 @@
+# Building AI Final Project
+
+## Project Title
+Digital Forensics Toolkit (DFT)
+
+## Summary
+This project aims to build a lightweight, Python-based toolkit for digital forensics investigations.  
+It will help cybersecurity professionals and students analyze evidence, detect anomalies, and perform forensic tasks such as file metadata extraction, hashing, and network traffic inspection.
+
+## Background
+Cybercrime is increasing rapidly, and investigators need accessible tools to perform forensic analysis.  
+Commercial forensic suites are often expensive and complex.  
+This project provides an open-source, beginner-friendly toolkit that can be extended for professional use.
+
+## How is it used?
+- Import evidence files (images, documents, logs).  
+- Extract metadata (timestamps, authorship, file type).  
+- Generate cryptographic hashes (MD5, SHA256) for integrity checks.  
+- Analyze network traffic using integrated modules (e.g., Wireshark/Nmap integration).  
+- Export reports in structured formats for case documentation.
+
+## Data sources and AI methods
+- File system metadata (NTFS, FAT32, EXT4).  
+- Network traffic captures (PCAP files).  
+- Python libraries for parsing and analysis.  
+- AI/ML methods (optional future extension): anomaly detection in logs, clustering suspicious activity.
+
+## Challenges
+- Handling large datasets efficiently.  
+- Ensuring accuracy of forensic evidence.  
+- Maintaining chain-of-custody principles.  
+- Designing a user-friendly interface for non-experts.
+
+## What’s next?
+- Build core modules (metadata extraction, hashing, reporting).  
+- Add optional AI-powered anomaly detection.  
+- Create a simple GUI for usability.  
+- Document usage with tutorials and examples.
+
+## Acknowledgments
+This project is part of the **Building AI course** by Reaktor Innovations and the University of Helsinki.  
+Special thanks to open-source communities that provide forensic libraries and datasets.
